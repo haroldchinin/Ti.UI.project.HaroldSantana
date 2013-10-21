@@ -1,0 +1,59 @@
+Logfile initialized
+me/harold/Titanium_Studio_Workspace_harold/GainedTime/build.log
+[DEBUG] /home/harold/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py simulator GainedTime /home/harold/android_sdk /home/harold/Titanium_Studio_Workspace_harold/GainedTime com.empresa.gainedtime 14 WQVGA432
+[INFO] logfile = /home/harold/Titanium_Studio_Workspace_harold/GainedTime/build.log
+[DEBUG] /home/harold/.titanium/mobilesdk/linux/3.1.3.GA/android/builder.py emulator GainedTime /home/harold/android_sdk /home/harold/Titanium_Studio_Workspace_harold/GainedTime com.empresa.gainedtime 14 WQVGA432 armeabi-v7a
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /home/harold/android_sdk/tools/emulator
+[DEBUG] SDCard: /home/harold/.titanium/android2.sdcard
+[DEBUG] AVD ID: 14
+[DEBUG] AVD Skin: WQVGA432
+[DEBUG] AVD ABI: armeabi-v7a
+[DEBUG] SDK: /home/harold/android_sdk
+[INFO] Building GainedTime for Android ... one moment
+[INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[DEBUG] /home/harold/android_sdk/tools/emulator -avd titanium_14_WQVGA432 -port 5560 -sdcard /home/harold/.titanium/titanium_14_WQVGA432.sdcard -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 80 seconds)
+[DEBUG] waited 80.143378 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
+[DEBUG] com.empresa.gainedtime installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[DEBUG] LiveView not enabled
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] found drawable-long-land-hdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /home/harold/Titanium_Studio_Workspace_harold/GainedTime/Resources/android/images/res-long-land-ldpi/default.png
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... GainedTime
+[INFO] Launching application ... GainedTime
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.empresa.gainedtime/.GainedtimeActivity }
+
+[INFO] Android Emulator has exited

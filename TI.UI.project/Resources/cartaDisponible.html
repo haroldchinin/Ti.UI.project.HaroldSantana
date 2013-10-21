@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>La Carta</title>
+	<meta name="description" content="La carta del restaurante">
+	<meta name="author" content="Harold Santana Sayas">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<!-- Aqui javascript
+    ================================================== -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.js"></script>
+	<!-- Aqui el estilo
+    ================================================== -->
+	<link type='text/css' rel="stylesheet" href="css/jquery.mobile.css">
+	<style>
+		img.fullscreen {
+			max-height: 60%;
+			max-width: 60%;
+		}
+	</style>
+	<link rel="shortcut icon" href="img/icon.png">
+</head>
+<body>
+<div data-role="page" id="carta">
+    <div data-role="content">
+    	<center><p>Mira la carta desde tu aplicación</p></center>
+    	<div data-role="collapsible-set" data-theme="b" data-content-theme="a" data-inset="false">
+		    <div data-role="collapsible">
+		        <h2>Bebidas</h2>
+		        <ul data-role="listview" data-filter="true" data-filter-placeholder='buscar café...' data-filter-theme="c" data-mini='true' data-theme="c" data-divider-theme="d">
+		            <li data-role="list-divider">Calientes</li>
+			        <li>
+				       	<a href="#receta1" data-transition="slide">
+					        <h4>Cafecito</h4>
+					        <img src="imagen-recetas/cafe1.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 5.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Café con leche</h4>
+					        <img src="imagen-recetas/cafe2.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 6.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Café con crema</h4>
+					        <img src="imagen-recetas/cafe3.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 7.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Café y grajeas</h4>
+					        <img src="imagen-recetas/cafe4.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 8.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li data-role="list-divider">Fríos</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Café helado</h4>
+					        <img src="imagen-recetas/frio2.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 4.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Batido helado</h4>
+					        <img src="imagen-recetas/frio1.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 5.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Crema helada</h4>
+					        <img src="imagen-recetas/frio3.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 6.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+		        </ul>
+		    </div>
+		    <div data-role="collapsible">
+		        <h2>Pasteles</h2>
+		        <ul data-role="listview" data-filter="true" data-filter-placeholder='buscar pastel...' data-filter-theme="c" data-mini='true' data-theme="c" data-divider-theme="d">
+		            <li data-role="list-divider">Postre</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Vainilla</h4>
+					        <img src="imagen-recetas/pastel1.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li data-role="list-divider">Acompañado</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Chocolate doble</h4>
+					        <img src="imagen-recetas/pastel2.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 8.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+		        </ul>
+		    </div>
+		    <div data-role="collapsible">
+		        <h2>Saladitos</h2>
+		        <ul data-role="listview" data-filter="true" data-filter-placeholder='buscar receta...' data-filter-theme="c" data-mini='true' data-theme="c" data-divider-theme="d">
+		            <li data-role="list-divider">Pizza y piqueos</li>
+		            <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Sandwish</h4>
+					        <img src="imagen-recetas/receta1.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 5.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Pizzetas</h4>
+					        <img src="imagen-recetas/receta2.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 5.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Yuquitas fritas</h4>
+					        <img src="imagen-recetas/receta4.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 5.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li data-role="list-divider">Ensalada</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Ensalada natural</h4>
+					        <img src="imagen-recetas/receta7.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li data-role="list-divider">Fritos</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Piernitas al jugo</h4>
+					        <img src="imagen-recetas/receta3.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Jamón</h4>
+					        <img src="imagen-recetas/receta8.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li data-role="list-divider">Otros</li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Champiñones</h4>
+					        <img src="imagen-recetas/receta5.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+			        <li>
+				       	<a href="#" data-transition="slide">
+					        <h4>Tortilla de verduras</h4>
+					        <img src="imagen-recetas/receta6.jpg">
+					        <p class="ui-li-aside">
+					   	       	<strong><span class="ui-li-count">S/. 9.00</span></strong>
+					        </p>
+				        </a>
+			        </li>
+
+		        </ul>
+		    </div>
+		</div>
+	</div><!-- /content -->
+</div><!-- /page mesas disponibles -->
+
+<div data-role='page' id='receta1'>
+	<div data-role='content'>
+		<center><h2>Cafecito <br> <em>S/.5.00</em></h2>
+
+		<img src="imagen-recetas/cafe1.jpg" alt="cafecito" class='fullscreen'></center>
+		<h4>Ingredientes:</h4>
+			<p>Delicioso café pasado calientito</p>
+		<a href="#carta" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>volver a la carta</a>
+	</div>
+</div> <!-- /mesa 1 -->
+
+<div data-role='page' id='mesa2'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa2.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para cuatro personas, incluye dos sillones rojos muy cómodos.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 2 -->
+
+<div data-role='page' id='mesa3'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa3.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para dos personas, incluye un sillón de cuero muy cómodo.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 3 -->
+
+<div data-role='page' id='mesa4'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa4.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para tres personas, incluye dos sillas de madera.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 4 -->
+<div data-role='page' id='mesa5'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa5.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para dos personas, incluye dos pequeños sillones redondos.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 5 -->
+
+<div data-role='page' id='mesa6'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa6.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para seis personas, incluye dos sillones normales.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 6 -->
+
+<div data-role='page' id='mesa7'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa7.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para ocho personas, incluye un sillón grande.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 7 -->
+
+<div data-role='page' id='mesa8'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa8.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para dos personas, incluye un sillón grande.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 8 -->
+
+<div data-role='page' id='mesa9'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa9.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para cuatro personas, incluye cuatro sillas de metal.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 9 -->
+
+<div data-role='page' id='mesa10'>
+	<div data-role='content'>
+		<center><img src="images-mesas/mesa10.jpg" style='width: 80%;'></center>
+		<strong><p>Descripción</p></strong>
+		<p>La capacidad de la mesa es para cuatro personas.</p>
+		<a href="#disponibles" data-role='button' data-transition='slide' data-theme='a' data-mini='true'>Volver</a>
+	</div>
+</div> <!-- /mesa 10 -->
+
+</body>
+</html>
